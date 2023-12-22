@@ -7,7 +7,6 @@
 #include<windows.h>
 void toUpper(char dizi[])
 {
-	//deneme
 	int i,j;
 	char dizibuyuk[]="ABCÇDEFGÐHIÝJKLMNOÖPRSÞTUÜVYZ";
 	char dizikucuk[]="abcçdefgðhýijklmnoöprsþtuüvyz";
