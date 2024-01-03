@@ -8,8 +8,8 @@
 void toUpper(char dizi[])
 {
 	int i,j;
-	char dizibuyuk[]="ABC�DEFG�HI�JKLMNO�PRS�TU�VYZ";
-	char dizikucuk[]="abc�defg�h�ijklmno�prs�tu�vyz";
+	char dizibuyuk[]="ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ";
+	char dizikucuk[]="abcçdefgğhıijklmnoöprsştuüvyz";
 	for(i=0;dizi[i]!='\0';i++)
 	{
 		for(j=0;j<29;j++)
@@ -61,7 +61,7 @@ void fark(char dz[][6],int r) //Harfleri farkl� rastgele bir kelime
 			printf("\n");
 		}
 }
-void harfiBilinenKelime(char dz[][6],char dzy[],int dzys[],int yhsayi,int b)     //Ye�il Harf
+void harfiBilinenKelime(char dz[][6],char dzy[],int dzys[],int yhsayi,int b)     //Yeşil Harf
 {
 	int x=0,i,j,a,c=0;
 	char harf;
